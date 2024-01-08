@@ -1,0 +1,29 @@
+[package]
+name = "memguard-rs"
+version = "0.1.1"
+edition = "2021"
+rust-version = "1.65"
+authors = ["Marek Novotný <m.novotny@isaagi.cloud>"]
+license = "MIT OR Apache-2.0"
+description = "Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time comparison, and compile-time enforced memory safety boundaries"
+repository = "https://github.com/m-novotny/memguard-rs"
+homepage = "https://github.com/m-novotny/memguard-rs"
+documentation = "https://docs.rs/memguard-rs"
+keywords = ["security", "memory", "crypto", "mlock", "zeroize"]
+categories = ["cryptography", "memory-management", "no-std"]
+readme = "README.md"
+exclude = ["/.github", "/target", "/tests"]
+
+[features]
+default = ["std", "lock"]
+std = ["alloc"]
+alloc = []
+lock = []
+
+[[bench]]
+name = "bench"
+harness = false
+path = "benches/bench.rs"
+
+[dev-dependencies]
+criterion = "0.5"
