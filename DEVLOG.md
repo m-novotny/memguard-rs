@@ -5,3 +5,4 @@
 - [2024-01-15 09:30:00] Add mlock/VirtualLock memory locking via direct FFI
 - [2024-01-22 18:45:00] Add Error enum and Result type alias
 - [2024-01-27 15:39:00] Write safety justification comment for write_volatile usage
+- [2024-02-03 14:20:00] Add Secret<T> wrapper with closure-based exposure and zeroize on drop
