@@ -8,3 +8,4 @@
 - [2024-02-03 14:20:00] Add Secret<T> wrapper with closure-based exposure and zeroize on drop
 - [2024-02-13 19:23:00] Add test for zeroize on f64 and f32 primitives
 - [2024-02-14 20:30:00] Add constant-time comparison: ct_eq, ct_select
+- [2024-02-22 19:40:00] Document why compiler_fence(SeqCst) is used around volatile writes
