@@ -11,3 +11,4 @@
 - [2024-02-22 19:40:00] Document why compiler_fence(SeqCst) is used around volatile writes
 - [2024-02-25 09:33:00] Add debug_assert for alignment in zeroize_ptr
 - [2024-02-26 16:10:00] Add GuardedRegion<N> const-generic locked memory regions
+- [2024-03-03 15:11:00] Add test for ct_eq with empty slices
