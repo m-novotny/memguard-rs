@@ -14,3 +14,4 @@
 - [2024-03-03 15:11:00] Add test for ct_eq with empty slices
 - [2024-03-04 10:49:00] Refactor zeroize macro to reduce code duplication
 - [2024-03-05 11:00:00] Write professional README with badges, usage examples, safety docs
+- [2024-03-15 22:45:00] Add integration tests for Secret, GuardedRegion, zeroize, ct_eq
