@@ -15,3 +15,4 @@
 - [2024-03-04 10:49:00] Refactor zeroize macro to reduce code duplication
 - [2024-03-05 11:00:00] Write professional README with badges, usage examples, safety docs
 - [2024-03-15 22:45:00] Add integration tests for Secret, GuardedRegion, zeroize, ct_eq
+- [2024-03-24 09:46:00] Document timing properties of ct_eq in module docs
