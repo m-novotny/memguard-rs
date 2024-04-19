@@ -19,3 +19,4 @@
 - [2024-03-28 19:20:00] Add exhaustive constant-time comparison test suite
 - [2024-04-08 13:30:00] Add CI: GitHub Actions for Ubuntu/macOS/Windows × stable/beta/nightly
 - [2024-04-09 10:45:00] Add cache key for Cargo registry in CI workflow
+- [2024-04-19 15:23:00] Fix CI: pin rust-toolchain to specific stable version
