@@ -23,3 +23,4 @@
 - [2024-04-20 15:00:00] Add SECURITY.md vulnerability policy and CONTRIBUTING.md guidelines
 - [2024-04-22 13:24:00] Add cross-compilation targets for ARM and aarch64 in CI
 - [2024-05-02 18:45:00] Add CHANGELOG.md following Keep a Changelog format
+- [2024-05-17 11:31:00] Add test for GuardedRegion with N=0 edge case
