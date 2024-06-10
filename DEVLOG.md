@@ -25,3 +25,4 @@
 - [2024-05-02 18:45:00] Add CHANGELOG.md following Keep a Changelog format
 - [2024-05-17 11:31:00] Add test for GuardedRegion with N=0 edge case
 - [2024-05-19 09:27:00] Document RLIMIT_MEMLOCK behavior in README troubleshooting section
+- [2024-06-10 21:15:00] Add issue templates (bug, feature, soundness) and PR template
