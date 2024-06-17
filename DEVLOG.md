@@ -26,3 +26,4 @@
 - [2024-05-17 11:31:00] Add test for GuardedRegion with N=0 edge case
 - [2024-05-19 09:27:00] Document RLIMIT_MEMLOCK behavior in README troubleshooting section
 - [2024-06-10 21:15:00] Add issue templates (bug, feature, soundness) and PR template
+- [2024-06-17 10:39:00] Fix doc test: use expose_mut correctly in README example
