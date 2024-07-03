@@ -28,3 +28,4 @@
 - [2024-06-10 21:15:00] Add issue templates (bug, feature, soundness) and PR template
 - [2024-06-17 10:39:00] Fix doc test: use expose_mut correctly in README example
 - [2024-06-20 11:41:00] Add fuzzing configuration with cargo-fuzz for zeroize and ct_eq
+- [2024-07-03 14:50:00] Add examples: API key protection and no_std embedded pattern
