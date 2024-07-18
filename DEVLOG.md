@@ -30,3 +30,4 @@
 - [2024-06-20 11:41:00] Add fuzzing configuration with cargo-fuzz for zeroize and ct_eq
 - [2024-07-03 14:50:00] Add examples: API key protection and no_std embedded pattern
 - [2024-07-04 18:33:00] Add test for SecretBox drop ordering with locked memory
+- [2024-07-18 20:22:00] Add no_std compatibility test in CI
