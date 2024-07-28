@@ -31,3 +31,4 @@
 - [2024-07-03 14:50:00] Add examples: API key protection and no_std embedded pattern
 - [2024-07-04 18:33:00] Add test for SecretBox drop ordering with locked memory
 - [2024-07-18 20:22:00] Add no_std compatibility test in CI
+- [2024-07-28 21:36:00] Refactor error module to use core::fmt instead of alloc::fmt
