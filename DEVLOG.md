@@ -32,3 +32,4 @@
 - [2024-07-04 18:33:00] Add test for SecretBox drop ordering with locked memory
 - [2024-07-18 20:22:00] Add no_std compatibility test in CI
 - [2024-07-28 21:36:00] Refactor error module to use core::fmt instead of alloc::fmt
+- [2024-08-06 09:33:00] Benchmark ct_eq vs std::eq for 32-byte slices
