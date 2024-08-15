@@ -27,3 +27,11 @@ path = "benches/bench.rs"
 
 [dev-dependencies]
 criterion = "0.5"
+
+[[bench]]
+name = "bench"
+harness = false
+path = "benches/bench.rs"
+
+[dev-dependencies]
+criterion = "0.5"
