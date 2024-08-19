@@ -35,3 +35,4 @@
 - [2024-08-06 09:33:00] Benchmark ct_eq vs std::eq for 32-byte slices
 - [2024-08-09 13:47:00] Add memory layout documentation for Secret<T> internals
 - [2024-08-15 17:30:00] Add criterion benchmarks for zeroize, ct_eq, and secret drop
+- [2024-08-19 16:10:00] Fix benchmark compilation on stable Rust
