@@ -37,3 +37,4 @@
 - [2024-08-15 17:30:00] Add criterion benchmarks for zeroize, ct_eq, and secret drop
 - [2024-08-19 16:10:00] Fix benchmark compilation on stable Rust
 - [2024-09-08 10:00:00] Add MIRI workflow for undefined behavior detection
+- [2024-09-13 11:35:00] Add MIRI suppress file for FFI calls that cannot be checked
