@@ -38,3 +38,4 @@
 - [2024-08-19 16:10:00] Fix benchmark compilation on stable Rust
 - [2024-09-08 10:00:00] Add MIRI workflow for undefined behavior detection
 - [2024-09-13 11:35:00] Add MIRI suppress file for FFI calls that cannot be checked
+- [2024-09-22 16:40:00] Add weekly security audit workflow with cargo-audit
