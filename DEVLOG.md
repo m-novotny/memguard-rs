@@ -40,3 +40,4 @@
 - [2024-09-13 11:35:00] Add MIRI suppress file for FFI calls that cannot be checked
 - [2024-09-22 16:40:00] Add weekly security audit workflow with cargo-audit
 - [2024-09-24 10:39:00] Document unsafe invariants in mlock platform modules
+- [2024-10-07 10:16:00] Fix audit workflow: use actions-rs/audit-check v2
