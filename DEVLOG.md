@@ -42,3 +42,4 @@
 - [2024-09-24 10:39:00] Document unsafe invariants in mlock platform modules
 - [2024-10-07 10:16:00] Fix audit workflow: use actions-rs/audit-check v2
 - [2024-10-10 12:20:00] Add dependabot config for GitHub Actions dependency updates
+- [2024-10-13 18:25:00] Add dependabot update schedule: weekly for actions, monthly for cargo
