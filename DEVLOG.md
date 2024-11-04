@@ -44,3 +44,4 @@
 - [2024-10-10 12:20:00] Add dependabot config for GitHub Actions dependency updates
 - [2024-10-13 18:25:00] Add dependabot update schedule: weekly for actions, monthly for cargo
 - [2024-11-02 09:35:00] Document Secret<T> invariants and safety requirements in source
+- [2024-11-04 18:42:00] Add test for ct_select_slice with mismatched lengths (should panic)
