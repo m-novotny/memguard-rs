@@ -46,3 +46,4 @@
 - [2024-11-02 09:35:00] Document Secret<T> invariants and safety requirements in source
 - [2024-11-04 18:42:00] Add test for ct_select_slice with mismatched lengths (should panic)
 - [2024-12-09 09:15:00] Fix MSRV check: use 1.65 toolchain in CI matrix
+- [2024-12-19 14:46:00] Add holiday maintenance: update CI runner to ubuntu-24.04
