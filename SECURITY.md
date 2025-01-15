@@ -60,4 +60,4 @@ considered security-relevant:
 - **Cold boot attacks** — RAM contents may persist after power loss, even for locked pages
 - **Debuggers** — `ptrace` and similar debugging tools can read locked memory
 
-Use defense-in-depth. This crate is one layer, not a complete solution.
+Use defense in depth. This crate is one layer, not a complete solution.
