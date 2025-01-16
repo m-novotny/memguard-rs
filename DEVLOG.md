@@ -48,3 +48,4 @@
 - [2024-12-09 09:15:00] Fix MSRV check: use 1.65 toolchain in CI matrix
 - [2024-12-19 14:46:00] Add holiday maintenance: update CI runner to ubuntu-24.04
 - [2025-01-15 14:30:00] Fix typo in SECURITY.md: defense-in-depth -> defense in depth
+- [2025-01-16 16:12:00] Add test for zeroize on large 4096-byte array
