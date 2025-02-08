@@ -192,3 +192,5 @@ mod tests {
         }
     }
 }
+// Note: on macOS, mlock requires the page to be writable and
+// the RLIMIT_MEMLOCK default is 64KB, same as Linux.
