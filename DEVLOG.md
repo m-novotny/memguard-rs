@@ -50,3 +50,4 @@
 - [2025-01-15 14:30:00] Fix typo in SECURITY.md: defense-in-depth -> defense in depth
 - [2025-01-16 16:12:00] Add test for zeroize on large 4096-byte array
 - [2025-01-23 10:46:00] Review and update all safety comments for clarity
+- [2025-02-08 11:45:00] Document macOS mlock behavior in platform module
