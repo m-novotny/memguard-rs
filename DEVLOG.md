@@ -54,3 +54,4 @@
 - [2025-02-21 20:36:00] Add FreeBSD mlock behavior notes in platform module
 - [2025-02-27 16:32:00] Fix intra-doc link in Secret<T> docs pointing to Zeroize trait
 - [2025-03-13 17:26:00] Add test for GuardedRegion::from_bytes with maximum N=4096
+- [2025-03-19 20:45:00] Refactor test module to reduce duplication across zeroize tests
