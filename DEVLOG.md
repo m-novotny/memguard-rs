@@ -55,3 +55,4 @@
 - [2025-02-27 16:32:00] Fix intra-doc link in Secret<T> docs pointing to Zeroize trait
 - [2025-03-13 17:26:00] Add test for GuardedRegion::from_bytes with maximum N=4096
 - [2025-03-19 20:45:00] Refactor test module to reduce duplication across zeroize tests
+- [2025-03-20 18:00:00] Add label guidelines section to CONTRIBUTING.md
