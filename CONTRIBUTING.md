@@ -49,3 +49,13 @@ review will focus on:
 Unless you explicitly state otherwise, any contribution intentionally
 submitted for inclusion in this work shall be dual-licensed under the
 MIT and Apache 2.0 licenses, without any additional terms or conditions.
+
+## Label guidelines
+
+- `bug`: Something isn't working
+- `enhancement`: New feature or improvement
+- `documentation`: Docs only changes
+- `good first issue`: Suitable for newcomers
+- `soundness`: Unsafe code soundness concern
+- `investigation`: Research or verification needed
+- `platform`: Platform-specific issue
