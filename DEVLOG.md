@@ -57,3 +57,4 @@
 - [2025-03-19 20:45:00] Refactor test module to reduce duplication across zeroize tests
 - [2025-03-20 18:00:00] Add label guidelines section to CONTRIBUTING.md
 - [2025-04-12 10:30:00] Add 'secret' and 'no-std' keywords to Cargo.toml
+- [2025-04-21 18:27:00] Add categories field to Cargo.toml for crates.io discoverability
