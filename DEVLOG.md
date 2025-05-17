@@ -59,3 +59,4 @@
 - [2025-04-12 10:30:00] Add 'secret' and 'no-std' keywords to Cargo.toml
 - [2025-04-21 18:27:00] Add categories field to Cargo.toml for crates.io discoverability
 - [2025-04-22 18:43:00] Fix clippy: use bool::then instead of if-let in ct_eq_full
+- [2025-05-17 09:44:00] Add test for concurrent zeroize safety with Send/Sync bounds
