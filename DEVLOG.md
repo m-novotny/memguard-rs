@@ -62,3 +62,4 @@
 - [2025-05-17 09:44:00] Add test for concurrent zeroize safety with Send/Sync bounds
 - [2025-05-26 09:28:00] Document why Secret<T> does not implement Clone
 - [2025-06-10 19:37:00] Update criterion to 0.5.1 in dev-dependencies
+- [2025-06-23 16:14:00] Add benchmark for GuardedRegion creation and drop overhead
