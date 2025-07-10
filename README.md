@@ -151,3 +151,10 @@ We have several issues tagged [`good first issue`](https://github.com/m-novotny/
 - [#8 — Document drop order guarantee in `Secret<T>`](https://github.com/m-novotny/memguard-rs/issues/8)
 
 All contributions are dual-licensed under the MIT and Apache 2.0 licenses.
+
+### Help wanted
+
+We have several issues tagged [`good first issue`](https://github.com/m-novotny/memguard-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) suitable for new contributors.
+
+- [#2 — Implement `Zeroize` for wider slice types](https://github.com/m-novotny/memguard-rs/issues/2)
+- [#8 — Document drop order guarantee in `Secret<T>`](https://github.com/m-novotny/memguard-rs/issues/8)
