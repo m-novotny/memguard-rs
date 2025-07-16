@@ -64,3 +64,4 @@
 - [2025-06-10 19:37:00] Update criterion to 0.5.1 in dev-dependencies
 - [2025-06-23 16:14:00] Add benchmark for GuardedRegion creation and drop overhead
 - [2025-07-10 13:00:00] Add Help wanted section to README linking to good first issues
+- [2025-07-16 20:30:00] Fix README badge URLs for docs.rs and crates.io
