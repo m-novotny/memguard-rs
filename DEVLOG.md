@@ -65,3 +65,4 @@
 - [2025-06-23 16:14:00] Add benchmark for GuardedRegion creation and drop overhead
 - [2025-07-10 13:00:00] Add Help wanted section to README linking to good first issues
 - [2025-07-16 20:30:00] Fix README badge URLs for docs.rs and crates.io
+- [2025-07-22 14:50:00] Add link to good first issues in CONTRIBUTING.md
