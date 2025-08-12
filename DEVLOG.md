@@ -67,3 +67,4 @@
 - [2025-07-16 20:30:00] Fix README badge URLs for docs.rs and crates.io
 - [2025-07-22 14:50:00] Add link to good first issues in CONTRIBUTING.md
 - [2025-08-01 14:36:00] Add test for ct_eq_full with very large slices (8192 bytes)
+- [2025-08-12 18:45:00] Document memory ordering choices in zeroize module
