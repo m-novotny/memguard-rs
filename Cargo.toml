@@ -26,7 +26,7 @@ harness = false
 path = "benches/bench.rs"
 
 [dev-dependencies]
-criterion = "0.5"
+criterion = "0.5" # Note: 0.5 is latest compatible with MSRV 1.65
 
 [[bench]]
 name = "bench"
@@ -34,4 +34,4 @@ harness = false
 path = "benches/bench.rs"
 
 [dev-dependencies]
-criterion = "0.5"
+criterion = "0.5" # Note: 0.5 is latest compatible with MSRV 1.65
