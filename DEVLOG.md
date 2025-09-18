@@ -70,3 +70,4 @@
 - [2025-08-12 18:45:00] Document memory ordering choices in zeroize module
 - [2025-09-11 10:23:00] Add test for zeroize on Box<[u8]> heap-allocated slice
 - [2025-09-16 11:13:00] Pin criterion version to avoid MSRV breakage from newer releases
+- [2025-09-18 20:15:00] Document criterion version constraint relative to MSRV
