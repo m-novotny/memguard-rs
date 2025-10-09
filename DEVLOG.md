@@ -72,3 +72,4 @@
 - [2025-09-16 11:13:00] Pin criterion version to avoid MSRV breakage from newer releases
 - [2025-09-18 20:15:00] Document criterion version constraint relative to MSRV
 - [2025-10-06 18:42:00] Refactor mlock tests to use helper for optional lock assertions
+- [2025-10-09 14:32:00] Add test for Secret::lock failure path with insufficient RLIMIT_MEMLOCK
