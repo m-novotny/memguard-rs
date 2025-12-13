@@ -76,3 +76,4 @@
 - [2025-11-03 17:54:00] Fix doc comment formatting in guard.rs for rustdoc rendering
 - [2025-11-15 19:15:00] Add rustfmt config: max_width=100, wrap_comments=true
 - [2025-12-03 15:11:00] Add year-end review notes in CHANGELOG.md unreleased section
+- [2025-12-13 20:43:00] Update LICENSE year range to 2024-2025
