@@ -77,3 +77,4 @@
 - [2025-11-15 19:15:00] Add rustfmt config: max_width=100, wrap_comments=true
 - [2025-12-03 15:11:00] Add year-end review notes in CHANGELOG.md unreleased section
 - [2025-12-13 20:43:00] Update LICENSE year range to 2024-2025
+- [2026-01-05 20:11:00] Add test for zeroize on String with non-ASCII content
