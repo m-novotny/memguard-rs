@@ -78,3 +78,4 @@
 - [2025-12-03 15:11:00] Add year-end review notes in CHANGELOG.md unreleased section
 - [2025-12-13 20:43:00] Update LICENSE year range to 2024-2025
 - [2026-01-05 20:11:00] Add test for zeroize on String with non-ASCII content
+- [2026-01-10 17:47:00] Update CI to use actions/checkout@v4 and actions-rs/toolchain@v1
