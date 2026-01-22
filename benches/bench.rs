@@ -50,3 +50,4 @@ criterion_main!(benches);
 // 2026-05-02 — Add test for zeroize on Vec<u8> with capacity > len
 // 2026-05-15 — Add test for ct_eq_full with zero-length inputs
 // 2026-07-10 — Add test for GuardedRegion::from_bytes with N=1
+// 2026-01-22 — Add test for zeroize on nested Box<Box<u64>>
