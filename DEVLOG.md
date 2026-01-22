@@ -81,3 +81,4 @@
 - [2026-01-10 17:47:00] Update CI to use actions/checkout@v4 and actions-rs/toolchain@v1
 - [2026-01-20 10:00:00] Fix broken intra-doc links in mlock.rs and guard.rs
 - [2026-01-22 09:05] Add test for zeroize on nested Box<Box<u64>>
+- [2026-01-22 10:33] Fix clippy: use matches! macro for error variant

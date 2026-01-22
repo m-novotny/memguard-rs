@@ -238,3 +238,4 @@ impl_zeroize_slice!(u16, u32, u64, u128, usize, i16, i32, i64, i128, isize, f32,
 // 2026-05-11 — Update MSRV badge in README to reflect 1.65 minimum
 // 2026-04-09 — Add test for GuardedRegion::from_bytes with N=1
 // 2026-05-15 — Document compiler fence necessity in zeroize safety comments
+// 2026-01-22 — Fix clippy: use matches! macro for error variant
