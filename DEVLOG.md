@@ -83,3 +83,4 @@
 - [2026-01-22 09:05] Add test for zeroize on nested Box<Box<u64>>
 - [2026-01-22 10:33] Fix clippy: use matches! macro for error variant
 - [2026-01-24 13:44:00] Fix broken intra-doc links flagged by rustdoc --check
+- [2026-02-19 16:39:00] Add test for ct_select with all possible select values 0-255
