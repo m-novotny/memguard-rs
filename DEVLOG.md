@@ -85,3 +85,4 @@
 - [2026-01-24 13:44:00] Fix broken intra-doc links flagged by rustdoc --check
 - [2026-02-19 16:39:00] Add test for ct_select with all possible select values 0-255
 - [2026-02-22 21:55:00] Document ManuallyDrop safety reasoning in Secret<T> drop impl
+- [2026-03-05 14:30:00] Add #[cfg_attr(miri, ignore)] to FFI-dependent tests
