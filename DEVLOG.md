@@ -87,3 +87,4 @@
 - [2026-02-22 21:55:00] Document ManuallyDrop safety reasoning in Secret<T> drop impl
 - [2026-03-05 14:30:00] Add #[cfg_attr(miri, ignore)] to FFI-dependent tests
 - [2026-03-06 16:36:00] Add test for GuardedRegion::new() failure on locked-down system
+- [2026-03-07 15:14:00] Fix clippy: replace manual loop with iterator in zeroize_slice
