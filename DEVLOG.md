@@ -92,3 +92,4 @@
 - [2026-04-09 13:44:00] Add test for ct_eq_full with zero-length inputs
 - [2026-04-09 17:14:00] Add test for zeroize on Box<[u64]> heap-allocated slice
 - [2026-04-09 20:55:00] Fix typo in CHANGELOG.md: zeroization not zeroisaton
+- [2026-04-09 21:07:00] Add test for GuardedRegion::from_bytes with N=1
