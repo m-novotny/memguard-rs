@@ -90,3 +90,4 @@
 - [2026-03-07 15:14:00] Fix clippy: replace manual loop with iterator in zeroize_slice
 - [2026-03-13 09:05:00] Add cfg_attr(miri, ignore) to mlock FFI tests
 - [2026-04-09 13:44:00] Add test for ct_eq_full with zero-length inputs
+- [2026-04-09 17:14:00] Add test for zeroize on Box<[u64]> heap-allocated slice
