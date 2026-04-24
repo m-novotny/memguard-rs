@@ -93,3 +93,4 @@
 - [2026-04-09 17:14:00] Add test for zeroize on Box<[u64]> heap-allocated slice
 - [2026-04-09 20:55:00] Fix typo in CHANGELOG.md: zeroization not zeroisaton
 - [2026-04-09 21:07:00] Add test for GuardedRegion::from_bytes with N=1
+- [2026-04-24 15:55:00] Add security review checklist in CONTRIBUTING.md for PR authors
