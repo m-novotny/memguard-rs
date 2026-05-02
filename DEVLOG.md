@@ -96,3 +96,4 @@
 - [2026-04-24 15:55:00] Add security review checklist in CONTRIBUTING.md for PR authors
 - [2026-05-02 17:50:00] Fix clippy: replace manual bool check with .is_some()
 - [2026-05-02 20:30:00] Document compiler fence necessity in zeroize safety comments
+- [2026-05-02 20:31:00] Add test for zeroize on Vec<u8> with capacity > len
