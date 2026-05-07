@@ -98,3 +98,4 @@
 - [2026-05-02 20:30:00] Document compiler fence necessity in zeroize safety comments
 - [2026-05-02 20:31:00] Add test for zeroize on Vec<u8> with capacity > len
 - [2026-05-07 11:20:00] Add test for zeroize on Box<[u64]> heap-allocated slice
+- [2026-05-07 17:31:00] Fix clippy: replace manual bool check with .is_some()
