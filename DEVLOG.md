@@ -102,3 +102,4 @@
 - [2026-05-11 09:45:00] Update MSRV badge in README to reflect 1.65 minimum
 - [2026-05-15 08:41:00] Add test for ct_eq_full with zero-length inputs
 - [2026-05-15 11:13:00] Document compiler fence necessity in zeroize safety comments
+- [2026-05-15 18:11:00] Add test for GuardedRegion::from_bytes with N=1
