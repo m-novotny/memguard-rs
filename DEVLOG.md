@@ -100,3 +100,4 @@
 - [2026-05-07 11:20:00] Add test for zeroize on Box<[u64]> heap-allocated slice
 - [2026-05-07 17:31:00] Fix clippy: replace manual bool check with .is_some()
 - [2026-05-11 09:45:00] Update MSRV badge in README to reflect 1.65 minimum
+- [2026-05-15 08:41:00] Add test for ct_eq_full with zero-length inputs
