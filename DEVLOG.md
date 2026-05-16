@@ -103,3 +103,4 @@
 - [2026-05-15 08:41:00] Add test for ct_eq_full with zero-length inputs
 - [2026-05-15 11:13:00] Document compiler fence necessity in zeroize safety comments
 - [2026-05-15 18:11:00] Add test for GuardedRegion::from_bytes with N=1
+- [2026-05-16 14:09:00] Benchmark zeroize_slice with SIMD-friendly aligned buffers
