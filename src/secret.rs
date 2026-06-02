@@ -246,8 +246,6 @@ mod boxed {
 
         #[test]
         #[cfg_attr(miri, ignore)]
-        #[cfg_attr(miri, ignore)]
-
         fn secretbox_basic() {
             let key = SecretBox::new([0xABu8; 32]).unwrap();
             key.expose(|k| {
