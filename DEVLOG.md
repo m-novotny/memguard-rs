@@ -105,3 +105,4 @@
 - [2026-05-15 18:11:00] Add test for GuardedRegion::from_bytes with N=1
 - [2026-05-16 14:09:00] Benchmark zeroize_slice with SIMD-friendly aligned buffers
 - [2026-06-01 11:44:00] Add test for SecretBox::new failure recovery path
+- [2026-06-02 11:15:00] Fix clippy needless_borrow warnings in drop implementations
