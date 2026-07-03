@@ -108,3 +108,4 @@
 - [2026-06-02 11:15:00] Fix clippy needless_borrow warnings in drop implementations
 - [2026-06-09 20:38:00] Fix clippy needless_borrow in Secret<T> drop implementation
 - [2026-06-28 10:55:00] Document drop order guarantee in Secret<T> source comments
+- [2026-07-03 19:16:00] Fix clippy: move impl blocks before test modules in zeroize.rs
