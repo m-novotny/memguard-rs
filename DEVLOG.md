@@ -111,3 +111,4 @@
 - [2026-07-03 19:16:00] Fix clippy: move impl blocks before test modules in zeroize.rs
 - [2026-07-10 08:21:00] Add test for GuardedRegion::from_bytes with N=1
 - [2026-07-10 13:23:00] Fix duplicate macro definitions from rebase conflict
+- [2026-07-10 18:53:00] Fix clippy: replace manual bool check with .is_some()
