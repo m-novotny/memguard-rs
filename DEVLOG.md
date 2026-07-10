@@ -110,3 +110,4 @@
 - [2026-06-28 10:55:00] Document drop order guarantee in Secret<T> source comments
 - [2026-07-03 19:16:00] Fix clippy: move impl blocks before test modules in zeroize.rs
 - [2026-07-10 08:21:00] Add test for GuardedRegion::from_bytes with N=1
+- [2026-07-10 13:23:00] Fix duplicate macro definitions from rebase conflict
