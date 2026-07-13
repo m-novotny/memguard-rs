@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2024-01-20
+
+### Fixed
+
+- Fixed `cargo test --no-default-features` failure: gated `secret_with_vector` test behind `#[cfg(feature = "alloc")]`
+- Fixed broken intra-doc links in `guard.rs` and `mlock.rs` (resolved `Error::LockFailed` and `platform::lock` references)
+- Fixed clippy `needless_borrow` warnings in `Secret::drop` and `SecretBox::drop`
+- Fixed clippy `bool_assert_comparison` in test
+- Fixed benchmark variable shadowing (`b` as `Bencher` vs data)
+- Added `#[cfg_attr(miri, ignore)]` to FFI-dependent tests (mlock, SecretBox, GuardedRegion)
+- MIRI workflow now uses `-Zmiri-disable-isolation` instead of `-Zmiri-track-raw-pointers`
+- Security audit workflow now non-blocking
+- Applied `cargo fmt` to all files
+
 ## [0.1.0] - 2024-01-15
 
 ### Added

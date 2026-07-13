@@ -1,6 +1,6 @@
 [package]
 name = "memguard-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.65"
 authors = ["Marek Novotný <m.novotny@isaagi.cloud>"]
@@ -9,7 +9,7 @@ description = "Secure memory handling primitives for Rust — zeroization on dro
 repository = "https://github.com/m-novotny/memguard-rs"
 homepage = "https://github.com/m-novotny/memguard-rs"
 documentation = "https://docs.rs/memguard-rs"
-keywords = ["security", "memory", "crypto", "mlock", "zeroize", "secret", "no-std"]
+keywords = ["security", "memory", "crypto", "mlock", "zeroize"]
 categories = ["cryptography", "memory-management", "no-std"]
 readme = "README.md"
 exclude = ["/.github", "/target", "/tests"]
@@ -26,12 +26,4 @@ harness = false
 path = "benches/bench.rs"
 
 [dev-dependencies]
-criterion = "0.5" # Note: 0.5 is latest compatible with MSRV 1.65
-
-[[bench]]
-name = "bench"
-harness = false
-path = "benches/bench.rs"
-
-[dev-dependencies]
-criterion = "0.5" # Note: 0.5 is latest compatible with MSRV 1.65
+criterion = "0.5"

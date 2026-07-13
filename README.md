@@ -1,11 +1,11 @@
 # memguard-rs
 
 [![CI](https://github.com/m-novotny/memguard-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/m-novotny/memguard-rs/actions/workflows/ci.yml)
-[![Crates.io](https://img.shields.io/crates/v/memguard-rs.svg)](https://crates.io/crates/memguard-rs)
-[![Documentation](https://docs.rs/memguard-rs/badge.svg)](https://docs.rs/memguard-rs/)
-[![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#license)
-[![MSRV](https://img.shields.io/badge/rustc-1.65+-orange.svg)](https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html)
-[![no_std](https://img.shields.io/badge/no__std-compatible-purple.svg)](#features)
+[![Crates.io](https://img.shields.io/crates/v/memguard-rs.svg?style=flat-square)](https://crates.io/crates/memguard-rs)
+[![Documentation](https://docs.rs/memguard-rs/badge.svg?style=flat-square)](https://docs.rs/memguard-rs/)
+[![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg?style=flat-square)](#license)
+[![MSRV](https://img.shields.io/badge/rustc-1.65+-orange.svg?style=flat-square)](https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html)
+[![no_std](https://img.shields.io/badge/no__std-compatible-purple.svg?style=flat-square)](#features)
 
 Secure memory handling primitives for Rust.
 
@@ -151,10 +151,3 @@ We have several issues tagged [`good first issue`](https://github.com/m-novotny/
 - [#8 — Document drop order guarantee in `Secret<T>`](https://github.com/m-novotny/memguard-rs/issues/8)
 
 All contributions are dual-licensed under the MIT and Apache 2.0 licenses.
-
-### Help wanted
-
-We have several issues tagged [`good first issue`](https://github.com/m-novotny/memguard-rs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) suitable for new contributors.
-
-- [#2 — Implement `Zeroize` for wider slice types](https://github.com/m-novotny/memguard-rs/issues/2)
-- [#8 — Document drop order guarantee in `Secret<T>`](https://github.com/m-novotny/memguard-rs/issues/8)
