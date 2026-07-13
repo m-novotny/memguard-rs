@@ -42,6 +42,24 @@ use core::mem::ManuallyDrop;
 /// `Secret` does not implement `Clone`, `Debug`, `PartialEq`, or `Display`
 /// to prevent accidental leakage of the secret through logging or
 /// comparison side-channels.
+///
+/// # Drop order
+///
+/// When `Secret<T>` is dropped, the following happens in order:
+/// 1. If the memory was locked with [`lock`](Secret::lock), it is unlocked
+/// 2. The inner value is zeroized using volatile writes
+/// 3. The inner value is dropped (via `ManuallyDrop::drop`)
+///
+/// `ManuallyDrop` is used to ensure zeroization happens before the
+/// destructor runs, and to prevent double-drops if zeroization panics.
+///
+/// # Why no Clone, Debug, or Display?
+///
+/// `Secret<T>` deliberately does not implement `Clone`, `Debug`, `Display`,
+/// or `PartialEq` to prevent accidental leakage of the secret through
+/// logging, formatting, or comparison side-channels. Access is only
+/// possible through the [`expose`](Secret::expose) and
+/// [`expose_mut`](Secret::expose_mut) methods.
 pub struct Secret<T: Zeroize> {
     inner: ManuallyDrop<T>,
     locked: bool,
