@@ -218,3 +218,28 @@ mod tests {
         assert_eq!(region.len(), 64);
     }
 }
+
+impl<const N: usize> GuardedRegion<N> {
+    /// Create a region pre-filled with data, then locked.
+    ///
+    /// This minimizes the exposure window compared to creating an empty
+    /// region and copying data into it afterward.
+    ///
+    /// # Errors
+    ///
+    /// Returns an error if the OS refuses to lock the memory.
+    #[inline]
+    pub fn from_bytes(data: &[u8; N]) -> Result<Self> {
+        let mut region = Self::new()?;
+        region.as_mut_slice().copy_from_slice(data);
+        Ok(region)
+    }
+
+    /// Create a region pre-filled with data, without locking.
+    #[inline]
+    pub fn from_bytes_unlocked(data: &[u8; N]) -> Self {
+        let mut region = Self::new_unlocked();
+        region.as_mut_slice().copy_from_slice(data);
+        region
+    }
+}
