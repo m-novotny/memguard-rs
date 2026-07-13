@@ -192,3 +192,47 @@ mod tests {
         }
     }
 }
+
+// === Linux: madvise(MADV_DONTDUMP) for core dump exclusion ===
+
+#[cfg(target_os = "linux")]
+mod dontdump {
+    use crate::error::Result;
+    use core::ffi::{c_int, c_void};
+
+    extern "C" {
+        fn madvise(addr: *const c_void, len: usize, advice: c_int) -> c_int;
+    }
+
+    // MADV_DONTDUMP = 16 on Linux
+    const MADV_DONTDUMP: c_int = 16;
+
+    /// Mark a memory region as non-dumpable in core dumps (Linux only).
+    ///
+    /// # Safety
+    ///
+    /// - `addr` must point to a valid memory region of at least `len` bytes
+    /// - The region must be page-aligned
+    #[inline]
+    pub unsafe fn set_dontdump(addr: *const u8, len: usize) -> Result<()> {
+        if len == 0 {
+            return Ok(());
+        }
+        let ret = madvise(addr as *const c_void, len, MADV_DONTDUMP);
+        if ret != 0 {
+            Err(crate::error::Error::LockFailed)
+        } else {
+            Ok(())
+        }
+    }
+}
+
+#[cfg(target_os = "linux")]
+pub use dontdump::set_dontdump;
+
+#[cfg(not(target_os = "linux"))]
+/// No-op on non-Linux platforms.
+#[inline]
+pub unsafe fn set_dontdump(_addr: *const u8, _len: usize) -> Result<()> {
+    Ok(())
+}
