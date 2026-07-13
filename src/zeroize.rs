@@ -207,3 +207,24 @@ mod tests {
         assert!(buf.iter().all(|&b| b == 0));
     }
 }
+
+// === Wider slice type implementations ===
+
+macro_rules! impl_zeroize_slice {
+    ($($t:ty),*) => {
+        $(
+            impl Zeroize for [$t] {
+                #[inline]
+                fn zeroize(&mut self) {
+                    compiler_fence(Ordering::SeqCst);
+                    for word in self.iter_mut() {
+                        unsafe { write_volatile(word as *mut $t, <$t>::default()) };
+                    }
+                    compiler_fence(Ordering::SeqCst);
+                }
+            }
+        )*
+    };
+}
+
+impl_zeroize_slice!(u16, u32, u64, u128, usize, i16, i32, i64, i128, isize, f32, f64);
