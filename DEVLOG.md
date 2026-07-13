@@ -113,3 +113,4 @@
 - [2026-07-10 13:23:00] Fix duplicate macro definitions from rebase conflict
 - [2026-07-10 18:53:00] Fix clippy: replace manual bool check with .is_some()
 - [2026-07-13 16:40:00] Add Zeroize impl for u16/u32/u64/u128/i16/i32/i64/f32/f64 slices (#13)
+- [2026-07-13 16:40:00] Add GuardedRegion::from_bytes and from_bytes_unlocked constructors (#14)
