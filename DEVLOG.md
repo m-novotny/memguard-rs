@@ -115,3 +115,4 @@
 - [2026-07-13 16:40:00] Add Zeroize impl for u16/u32/u64/u128/i16/i32/i64/f32/f64 slices (#13)
 - [2026-07-13 16:40:00] Add GuardedRegion::from_bytes and from_bytes_unlocked constructors (#14)
 - [2026-07-13 16:40:00] Document drop order guarantee and trait omission rationale in Secret<T> (#15)
+- [2026-07-13 16:40:00] Add madvise(MADV_DONTDUMP) support for Linux core dump exclusion (#17)
