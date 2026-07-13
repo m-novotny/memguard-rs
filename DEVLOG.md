@@ -117,3 +117,4 @@
 - [2026-07-13 16:40:00] Document drop order guarantee and trait omission rationale in Secret<T> (#15)
 - [2026-07-13 16:40:00] Add madvise(MADV_DONTDUMP) support for Linux core dump exclusion (#17)
 - [2026-07-13 17:38:00] Fix clippy: move impls before test modules, add safety docs
+- [2026-07-13 17:41:00] Fix duplicate definitions from rebase: rewrite mlock.rs and guard.rs clean
