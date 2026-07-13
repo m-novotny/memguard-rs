@@ -218,3 +218,39 @@ mod tests {
         assert_eq!(region.len(), 64);
     }
 }
+
+#[cfg(test)]
+mod additional_tests {
+    use super::*;
+
+    #[test]
+    fn region_from_bytes() {
+        let data = [0xABu8; 16];
+        let region = GuardedRegion::<16>::from_bytes_unlocked(&data);
+        assert_eq!(region.as_slice(), &data);
+    }
+
+    #[test]
+    fn region_from_bytes_large() {
+        let data = [0xCDu8; 256];
+        let region = GuardedRegion::<256>::from_bytes_unlocked(&data);
+        assert_eq!(region.as_slice(), &data);
+    }
+
+    #[test]
+    fn region_clear_zeroes_all_bytes() {
+        let mut region = GuardedRegion::<128>::new_unlocked();
+        region.as_mut_slice().fill(0xFF);
+        assert!(region.as_slice().iter().all(|&b| b == 0xFF));
+        region.clear();
+        assert!(region.as_slice().iter().all(|&b| b == 0));
+    }
+
+    #[test]
+    fn region_is_empty_consistent() {
+        let r0 = GuardedRegion::<0>::new_unlocked();
+        let r1 = GuardedRegion::<1>::new_unlocked();
+        assert!(r0.is_empty());
+        assert!(!r1.is_empty());
+    }
+}
