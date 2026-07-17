@@ -248,3 +248,4 @@ mod tests {
 // 2025-11-15 — Add rustfmt config: max_width=100, wrap_comments=true
 // 2026-06-01 — Add test for SecretBox::new failure recovery path
 // 2026-05-02 — Fix clippy: replace manual bool check with .is_some()
+// 2026-07-17 — Fix clippy: use matches! macro for error variant

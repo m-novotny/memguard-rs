@@ -119,3 +119,4 @@
 - [2026-07-13 17:38:00] Fix clippy: move impls before test modules, add safety docs
 - [2026-07-13 17:41:00] Fix duplicate definitions from rebase: rewrite mlock.rs and guard.rs clean
 - [2026-07-13 23:30:00] Release v0.1.1: fix CI, clippy, MIRI, doc links, fmt across all platforms
+- [2026-07-17 18:39] Fix clippy: use matches! macro for error variant
